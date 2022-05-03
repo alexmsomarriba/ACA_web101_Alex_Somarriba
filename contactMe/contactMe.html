@@ -8,29 +8,29 @@
     <title>Document</title>
 </head>
 <body>
-        <div class="container">
+        <div class="container" name="containier">
           <h3>Contact Me</h3>
-          <form>
+          <form action="results.html" method="GET" enctype="multipart/form-data">
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email"><br>
         
             <label for="comments">Comments:</label><br>
-            <textarea id="Comments" style="height:150px"></textarea><br>
+            <textarea id="Comments" style="height:150px" name="comments"></textarea><br>
         
             <p>How did you hear about me?</p>
-            <input type="radio" id="classmate" name="foundOut" value="30" class="radio">
+            <input type="radio" id="classmate" name="foundOut" value="Classmate" class="radio">
             <label for="classmate" class="radioLable">Classmate</label><br>
-            <input type="radio" id="resume" name="foundOut" value="60">
+            <input type="radio" id="resume" name="foundOut" value="Resume Submission">
             <label for="resume" class="radioLable">Resume Submission</label><br>  
-            <input type="radio" id="linkedIn" name="foundOut" value="100">
+            <input type="radio" id="linkedIn" name="foundOut" value="LinkedIn">
             <label for="linkedIn" class="radioLable">LinkedIn</label><br>
-            <input type="radio" id="recomendation" name="foundOut" value="100">
+            <input type="radio" id="recomendation" name="foundOut" value="Coding Academy Recomendation">
             <label for="recomendation" class="radioLable">Coding Academy Recomendation</label><br><br>
         
             <p>Would you like to be contacted back?</p>
-            <input type="radio" id="yes" name="returnMessage" value="30">
+            <input type="radio" id="yes" name="returnMessage" value="Yes">
             <label for="classmate" class="radioLable">Yes</label><br>
-            <input type="radio" id="no" name="returnMessage" value="60">
+            <input type="radio" id="no" name="returnMessage" value="No">
             <label for="resume" class="radioLable">No</label><br><br>
             
             <label for="birthday">Birthday:</label><br>
@@ -39,5 +39,6 @@
             <input type="submit" value="Submit">
           </form>
         </div>
+        <script src="script.js"></script>
 </body>
 </html>
