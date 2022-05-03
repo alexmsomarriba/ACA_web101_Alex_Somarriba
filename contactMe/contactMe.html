@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contactMeStyle.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="container">
+          <h3>Contact Me</h3>
+          <form>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+        
+            <label for="comments">Comments:</label><br>
+            <textarea id="Comments" style="height:150px"></textarea><br>
+        
+            <p>How did you hear about me?</p>
+            <input type="radio" id="classmate" name="foundOut" value="30" class="radio">
+            <label for="classmate" class="radioLable">Classmate</label><br>
+            <input type="radio" id="resume" name="foundOut" value="60">
+            <label for="resume" class="radioLable">Resume Submission</label><br>  
+            <input type="radio" id="linkedIn" name="foundOut" value="100">
+            <label for="linkedIn" class="radioLable">LinkedIn</label><br>
+            <input type="radio" id="recomendation" name="foundOut" value="100">
+            <label for="recomendation" class="radioLable">Coding Academy Recomendation</label><br><br>
+        
+            <p>Would you like to be contacted back?</p>
+            <input type="radio" id="yes" name="returnMessage" value="30">
+            <label for="classmate" class="radioLable">Yes</label><br>
+            <input type="radio" id="no" name="returnMessage" value="60">
+            <label for="resume" class="radioLable">No</label><br><br>
+            
+            <label for="birthday">Birthday:</label><br>
+            <input type="date" id="birthday" name="birthday"><br>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+</body>
+</html>
